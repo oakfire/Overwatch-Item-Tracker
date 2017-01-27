@@ -42,11 +42,16 @@ OWI.factory("StorageService", function() {
   return service;
 })
 
-OWI.controller('MainCtrl', ["Data", "$uibModal", "StorageService", function(Data, $uibModal, StorageService) {
+OWI.controller('MainCtrl', ["Data", "$uibModal", "StorageService", "$rootScope", function(Data, $uibModal, StorageService, $rootScope) {
+  var vm = this;
   this.preview = false;
   this.updates = Data.updates;
-  this.selectedUpdate = 'YEAR_OF_THE_ROOSTER_2017';
+  this.selectedUpdate = Data.currentEvent;
   this.currentDate = Date.now();
+
+  $rootScope.$on('$stateChangeSuccess', function(a,b,c) {
+    vm.selectedUpdate = c.id;
+  });
 
   this.openSettings = function() {
     $uibModal.open({
@@ -111,171 +116,159 @@ OWI.directive("scroll", function ($window) {
   };
 });
 
-OWI.directive("update", ["$rootScope", "Data", "StorageService", function($rootScope, Data, StorageService) {
-  return {
-    restrict: 'E',
-    scope: {
-      data: '='
-    },
-    templateUrl: './templates/event-container.html',
-    link: function($scope, element, attrs) {
-      $scope.currentEvent = attrs.template
-    },
-    controller: function($scope) {
-      $scope.preview = false;
+OWI.controller("UpdateCtrl", ["$scope", "$rootScope", "Data", "StorageService", "event", function($scope, $rootScope, Data, StorageService, event) {
+  $scope.preview = false;
+  $scope.checked = Data.checked[event.id];
+  $scope.data = event;
 
-      $scope.checked = Data.checked[$scope.data.id];
+  $rootScope.$on('selectAll', function() {
+    $scope.calculateCosts();
+    $scope.calculatePerHeroProgress();
+  })
 
-      $rootScope.$on('selectAll', function() {
-        $scope.calculateCosts();
-        $scope.calculatePerHeroProgress();
-      })
-
-      $scope.viewMode = StorageService.getSetting('viewMode') || 'item-type';
-      $scope.viewModes = {
-        'item-type': 'By item type',
-        'hero': 'By hero'
-      };
-      $scope.saveViewMode = function (viewMode) {
-        $scope.viewMode = viewMode;
-        StorageService.setSetting('viewMode', viewMode);
-      }
-
-      $scope.onSelect = function() {
-        Data.checked[$scope.data.id] = $scope.checked;
-        StorageService.setData(Data.checked);
-        $scope.calculateCosts();
-        $scope.calculatePerHeroProgress();
-      };
-
-      $scope.cost = {
-        total: 0,
-        remaining: 0,
-        prev: 0
-      };
-
-      $scope.calculateCosts = function() {
-        if ($scope.data.id == 'summergames2016') return
-        var cost = {
-          total: 0,
-          remaining: 0,
-          prev: $scope.cost.remaining
-        }
-
-        Object.keys($scope.data.items).forEach(function(type) {
-          if (type == 'icons') return; // icons have no cost
-          var items = $scope.data.items[type];
-          items.forEach(function(item) {
-            if (!item.quality) return // if it has no quality it has no cost
-            var price = Data.prices[item.quality];
-            cost.total += price;
-            if (!StorageService.isItemChecked($scope.data.id, type, item.id)) {
-              cost.remaining += price;
-            }
-          })
-        })
-        $scope.cost = cost;
-      }
-
-      $scope.calculateCosts();
-
-      var showTimeout = undefined;
-      var hideTimeout = undefined;
-      $scope.showPreview = function(what, small) {
-        if (!what.img && !what.video) return;
-        if (showTimeout) return;
-        clearTimeout(hideTimeout)
-        showTimeout = setTimeout(function () {
-          what.isSmall = small;
-          $scope.preview = what;
-          $scope.$digest();
-        }, $scope.preview ? 100 : 650);
-      };
-
-      $scope.hidePreview = function() {
-        clearTimeout(showTimeout);
-        showTimeout = undefined;
-        hideTimeout = setTimeout(function () {
-          $scope.preview = false;
-          $scope.$digest();
-        }, 150);
-      };
-
-      // Data for predetermined hero view
-      $scope.availableHeroes = [];
-      $scope.selectedHero = '';
-      $scope.hasGlobalItems = false;
-      $scope.perHeroProgress = {};
-      determineAvailableHeroes();
-
-      $scope.setSelectedHero = function(hero) {
-        $scope.selectedHero = hero;
-      }
-      $scope.selectedHeroHas = function(type) {
-        var possibleItems = [];
-
-        // Shortcut to prevent error with misattributed player icons eg winston-yeti (should have no hero: and allClass: set)
-        if (type == 'icons') {
-          return $scope.selectedHero == 'global';
-        }
-
-        if (type == 'skins') {
-          possibleItems = $scope.data.items.skinsLegendary.concat($scope.data.items.skinsEpic);
-        } else {
-          possibleItems = $scope.data.items[type];
-        }
-
-        var hasItem = false;
-
-        possibleItems.forEach(function(item) {
-          if ($scope.selectedHero == 'global' && !item.hero) hasItem = true;
-          else if (item.hero == $scope.selectedHero) hasItem = true;
-        });
-
-        return hasItem;
-      }
-
-      $scope.calculatePerHeroProgress = function() {
-        var progress = {};
-        setProgress('global');
-        $scope.availableHeroes.forEach(setProgress);
-
-        $scope.perHeroProgress = progress;
-
-        function setProgress(hero) {
-          progress[hero] = { total: 0, current: 0 };
-          Object.keys($scope.data.items).forEach(function(type) {
-            $scope.data.items[type].forEach(function(item) {
-              if (item.hero == hero) {
-                progress[hero].total++;
-                if (StorageService.isItemChecked($scope.data.id, type, item.id)) progress[hero].current++;
-              } else if (!item.hero && hero == 'global') {
-                progress.global.total++;
-                if (StorageService.isItemChecked($scope.data.id, type, item.id)) progress.global.current++;
-              }
-            })
-          })
-        }
-      }
-
-      $scope.calculatePerHeroProgress();
-
-      function determineAvailableHeroes() {
-        var heroes = {};
-        Object.keys($scope.data.items).forEach(function(type) {
-          $scope.data.items[type].forEach(function(item) {
-            if (item.hero) {
-              heroes[item.hero] = true;
-            } else {
-              $scope.hasGlobalItems = true;
-            }
-          });
-        });
-        $scope.availableHeroes = Object.keys(heroes).sort();
-        $scope.selectedHero = $scope.hasGlobalItems ? 'global' : $scope.availableHeroes[0];
-      }
-    }
+  $scope.viewMode = StorageService.getSetting('viewMode') || 'item-type';
+  $scope.viewModes = {
+    'item-type': 'By item type',
+    'hero': 'By hero'
   };
+  $scope.saveViewMode = function (viewMode) {
+    $scope.viewMode = viewMode;
+    StorageService.setSetting('viewMode', viewMode);
+  }
+
+  $scope.onSelect = function() {
+    Data.checked[event.id] = $scope.checked;
+    StorageService.setData(Data.checked);
+    $scope.calculateCosts();
+    $scope.calculatePerHeroProgress();
+  };
+
+  $scope.cost = {
+    total: 0,
+    remaining: 0,
+    prev: 0
+  };
+
+  $scope.calculateCosts = function() {
+    if (event.id == 'summergames2016') return
+    var cost = {
+      total: 0,
+      remaining: 0,
+      prev: $scope.cost.remaining
+    }
+
+    Object.keys($scope.data.items).forEach(function(type) {
+      if (type == 'icons') return; // icons have no cost
+      var items = $scope.data.items[type];
+      items.forEach(function(item) {
+        if (!item.quality) return // if it has no quality it has no cost
+        var price = Data.prices[item.quality];
+        cost.total += price;
+        if (!StorageService.isItemChecked(event.id, type, item.id)) {
+          cost.remaining += price;
+        }
+      })
+    })
+    $scope.cost = cost;
+  }
+
+  $scope.calculateCosts();
+
+  var showTimeout = undefined;
+  var hideTimeout = undefined;
+  $scope.showPreview = function(what, small) {
+    if (!what.img && !what.video) return;
+    if (showTimeout) return;
+    clearTimeout(hideTimeout)
+    showTimeout = setTimeout(function () {
+      what.isSmall = small;
+      $scope.preview = what;
+      $scope.$digest();
+    }, $scope.preview ? 100 : 650);
+  };
+
+  $scope.hidePreview = function() {
+    clearTimeout(showTimeout);
+    showTimeout = undefined;
+    hideTimeout = setTimeout(function () {
+      $scope.preview = false;
+      $scope.$digest();
+    }, 150);
+  };
+
+  // Data for predetermined hero view
+  $scope.availableHeroes = [];
+  $scope.selectedHero = '';
+  $scope.hasGlobalItems = false;
+  $scope.perHeroProgress = {};
+  determineAvailableHeroes();
+
+  $scope.setSelectedHero = function(hero) {
+    $scope.selectedHero = hero;
+  }
+  $scope.selectedHeroHas = function(type) {
+    var possibleItems = [];
+
+    // Shortcut to prevent error with misattributed player icons eg winston-yeti (should have no hero: and allClass: set)
+    if (type == 'icons') {
+      return $scope.selectedHero == 'global';
+    }
+
+    if (type == 'skins') {
+      possibleItems = $scope.data.items.skinsLegendary.concat($scope.data.items.skinsEpic);
+    } else {
+      possibleItems = $scope.data.items[type];
+    }
+
+    var hasItem = false;
+
+    possibleItems.forEach(function(item) {
+      if ($scope.selectedHero == 'global' && !item.hero) hasItem = true;
+      else if (item.hero == $scope.selectedHero) hasItem = true;
+    });
+
+    return hasItem;
+  }
+
+  $scope.calculatePerHeroProgress = function() {
+    var progress = {};
+    setProgress('global');
+    $scope.availableHeroes.forEach(setProgress);
+
+    $scope.perHeroProgress = progress;
+
+    function setProgress(hero) {
+      progress[hero] = { total: 0, current: 0 };
+      Object.keys($scope.data.items).forEach(function(type) {
+        $scope.data.items[type].forEach(function(item) {
+          if (item.hero == hero) {
+            progress[hero].total++;
+            if (StorageService.isItemChecked(event.id, type, item.id)) progress[hero].current++;
+          } else if (!item.hero && hero == 'global') {
+            progress.global.total++;
+            if (StorageService.isItemChecked(event.id, type, item.id)) progress.global.current++;
+          }
+        })
+      })
+    }
+  }
+
+  $scope.calculatePerHeroProgress();
+
+  function determineAvailableHeroes() {
+    var heroes = {};
+    Object.keys($scope.data.items).forEach(function(type) {
+      $scope.data.items[type].forEach(function(item) {
+        if (item.hero) {
+          heroes[item.hero] = true;
+        } else {
+          $scope.hasGlobalItems = true;
+        }
+      });
+    });
+    $scope.availableHeroes = Object.keys(heroes).sort();
+    $scope.selectedHero = $scope.hasGlobalItems ? 'global' : $scope.availableHeroes[0];
+  }
 }]);
 
 OWI.filter('heroPortraitUrl', function () {

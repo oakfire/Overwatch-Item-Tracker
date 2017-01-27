@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/events.css">
   <script src="./js/vendor/angular.min.js"></script>
+  <script src="./js/vendor/ui-router.min.js"></script>
   <script src="./js/vendor/ui-bootstrap.min.js"></script>
   <script src="./js/vendor/particles.min.js"></script>
   <script src="./js/app.js"></script>
@@ -34,7 +35,7 @@
           {{$ctrl.updates[$ctrl.selectedUpdate].name}} <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="event-selector-button">
-          <li role="menuitem" ng-repeat="update in $ctrl.updates track by $index"><a href="#" ng-click="$ctrl.selectedUpdate = update.id;">{{update.name}}</a></li>
+          <li role="menuitem" ng-repeat="update in $ctrl.updates track by $index"><a href="#" ui-sref="update({ id: update.id })">{{update.name}}</a></li>
         </ul>
       </div>
       <div ng-show="$ctrl.updates[$ctrl.selectedUpdate].dates.end > $ctrl.currentDate">
@@ -70,7 +71,7 @@
   <!--<Particles ng-if="::$ctrl.particles"></Particles>-->
   <div id="protip">Pro Tip: Hover over items to view a preview.</div>
 
-  <Update ng-repeat="(update, data) in $ctrl.updates" template="{{update}}" data="data" ng-if="$ctrl.selectedUpdate == update"></Update>
+  <ui-view></ui-view>
 
   <div id="footer">
     Note: This site uses localstorage to store your selections, clearing cookies or using 3rd party cleaners may erase saved data | Initial Design by Lalato &amp; Izzepizze on <a href="https://www.reddit.com/r/Overwatch/comments/59bo66">Reddit</a> | Site made by Js41637 | View source on <a href="https://github.com/Js41637/Overwatch-Item-Tracker">Github</a>

@@ -1,7 +1,36 @@
-var OWI = angular.module('OWI', ['ui.bootstrap'])
+var OWI = angular.module('OWI', ['ui.bootstrap', 'ui.router'])
 
-OWI.config(['$compileProvider', function($compileProvider) {
+OWI.config(['$compileProvider', '$stateProvider', '$urlRouterProvider', function($compileProvider, $stateProvider, $urlRouterProvider) {
   $compileProvider.debugInfoEnabled(false);
+
+  $stateProvider
+  .state('update', {
+    url: '/:id',
+    templateUrl: './templates/event-container.html',
+    controller: 'UpdateCtrl',
+    resolve: {
+      event: function($q, Data, $stateParams) {
+        var deferred = $q.defer();
+        setTimeout(function() {
+          var event = Data.updates[$stateParams.id]
+          if (event) {
+            deferred.resolve(event)
+          } else {
+            deferred.reject("Invalid Event")
+          }
+        }, 0);
+        return deferred.promise
+      }
+    }
+  })
+
+  $urlRouterProvider.otherwise('/');
+}])
+
+.run(["$rootScope", "$state", "Data", function($rootScope, $state, Data) {
+  $rootScope.$on('$stateChangeError', function() {
+    $state.go('update', { id: Data.currentEvent })
+  });
 }])
 
 // Run migrations to convert data and stuff
