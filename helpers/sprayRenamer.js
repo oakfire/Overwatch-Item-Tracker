@@ -1,9 +1,10 @@
 // sprayRenamer.js
 // After extracting sprays from the game into ./OverwatchAssets
-// run this script which move all sprays into ./converted sorted by hero and their cleanIDs
+// run this script which move all sprays and renames them to their IDS into ./toBeConverted
+// where you can run the Photoshop script to convert to PNG
 const fs = require('fs')
 
-if (!process.cwd().match(/OverwatchAssets$/)) {
+if (!process.cwd().match(/OverwatchAssets/)) {
   console.error("Needs to be run in OverwatchAssets")
   process.exit()
 }
@@ -24,18 +25,42 @@ var getDirectories = where => {
   })
 }
 
+/*var createDirectorys = what => {
+  return new Promise(resolve => {
+    fs.stat(`./!toBeConverted/${what}`, err => {
+      if (err) {
+        fs.mkdirSync(`./!toBeConverted/${what}`)
+        fs.stat(`./!toBeConverted/${what}/Icon`, err => err ? fs.mkdir(`./!toBeConverted/${what}/Icon`) : void 0)
+        fs.stat(`./!toBeConverted/${what}/Spray`, err => err ? fs.mkdir(`./!toBeConverted/${what}/Spray`) : void 0)
+        return resolve()
+      } else return resolve()
+    })
+  })
+}*/
+
+fs.stat(`./!toBeConverted`, err => {
+  if (err) {
+    fs.mkdirSync(`./!toBeConverted`)
+    fs.mkdirSync(`./!toBeConverted/Icon`)
+    fs.mkdirSync(`./!toBeConverted/Spray`)
+  }
+})
+
 getDirectories('./').then(heroDirs => {
   heroDirs.forEach(heroDir => {
     const dirID = getCleanID(heroDir)
-    fs.stat(`./converted/${dirID}`, err => err ? fs.mkdir(`./converted/${dirID}`, () => fs.stat(`./converted/${dirID}/Sprays`, err => err ? fs.mkdir(`./converted/${dirID}/Sprays`) : void 0)) : void 0)
-    getDirectories(`./${heroDir}/Spray`).then(types => {
-      Promise.all(types.map(t => getDirectories(`./${heroDir}/Spray/${t}`))).then(groups => {
-        groups.forEach((sprays, i) => {
-          sprays.forEach(s => fs.rename(`./${heroDir}/Spray/${types[i]}/${s}`, `./converted/${dirID}/Sprays/${dirID}-${getCleanID(s)}.dds`))
+    getDirectories(`./${heroDir}`).then(types => {
+      types.map(type => {
+        getDirectories(`./${heroDir}/${type}`).then(events => {
+          events.map(event => {
+            getDirectories(`./${heroDir}/${type}/${event}`).then(files => {
+              files.forEach(file => {
+                fs.createReadStream(`./${heroDir}/${type}/${event}/${file}`).pipe(fs.createWriteStream(`./!toBeConverted/${type}/${dirID}-${getCleanID(file)}.dds`));
+              })
+            })
+          })
         })
-      }).catch(console.error)
-    }).catch(console.error)
+      })
+    })
   })
-}).catch(console.error)
-
-fs.stat(`./converted`, err => err ? fs.mkdir(`./converted`) : void 0)
+})

@@ -6,8 +6,6 @@ OWI.config(['$compileProvider', '$stateProvider', '$urlRouterProvider', function
   $stateProvider
   .state('update', {
     url: '/:id',
-    templateUrl: './templates/event-container.html',
-    controller: 'UpdateCtrl',
     resolve: {
       event: function($q, Data, $stateParams) {
         var deferred = $q.defer();
@@ -21,7 +19,26 @@ OWI.config(['$compileProvider', '$stateProvider', '$urlRouterProvider', function
         }, 0);
         return deferred.promise
       }
+    },
+    views: {
+      header: {
+        templateUrl: './templates/header-event.html'
+      },
+      main: {
+        templateUrl: './templates/event-container.html',
+        controller: 'UpdateCtrl'
+      }
     }
+  })
+  .state('heroes', {
+    url: '/heroes',
+    templateUrl: './templates/heroes.html',
+    controller: 'HeroesCtrl'
+  })
+
+  .state('heroes.hero', {
+    url: '/:id',
+    templateUrl: './templates/hero.html'
   })
 
   $urlRouterProvider.otherwise('/');

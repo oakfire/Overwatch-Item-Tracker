@@ -74,6 +74,10 @@ OWI.controller('MainCtrl', ["Data", "$uibModal", "StorageService", "$rootScope",
   Data.checked = Object.assign({}, Data.checked, savedData);
 }]);
 
+OWI.controller('HeroesCtrl', function() {
+  
+})
+
 OWI.controller('SettingsCtrl', ["$rootScope", "$uibModalInstance", "StorageService", "Data", function($rootScope, $uibModalInstance, StorageService, Data) {
   this.particles = StorageService.getSetting('particles');
 
