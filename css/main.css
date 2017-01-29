@@ -401,7 +401,7 @@ body {
 }
 
 .item-container .section>span:after, .item-container h2>small:after {
-  content: " Coins)";
+  content: " 金币)";
 }
 
 
@@ -998,7 +998,7 @@ strong {
 
 .card-heading {
   line-height: .8;
-  font-size: 30px !important;
+  font-size: 24px !important;
   font: italic normal normal 10px Big Noodle Too, impact, sans-serif;
   line-height: normal;
   letter-spacing: .1px;

@@ -137,8 +137,8 @@ OWI.directive("update", ["$rootScope", "Data", "StorageService", function($rootS
 
       $scope.viewMode = StorageService.getSetting('viewMode') || 'item-type';
       $scope.viewModes = {
-        'item-type': 'By item type',
-        'hero': 'By hero'
+        'item-type': '按类型',
+        'hero': '按英雄'
       };
       $scope.saveViewMode = function (viewMode) {
         $scope.viewMode = viewMode;

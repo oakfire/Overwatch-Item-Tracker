@@ -233,147 +233,147 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/ana-shooting.png"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "Boxing",
               "id": "bastion-boxing",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/bastion-boxing.png"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "Cycling",
               "id": "dva-cycling",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/dva-cycling.png"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Fencing",
               "id": "genji-fencing",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/genji-fencing.png"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "Archery",
               "id": "hanzo-archery",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/hanzo-archery.png"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Tennis",
               "id": "junkrat-tennis",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/junkrat-tennis.png"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Football",
               "id": "lucio-football",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/lucio-football.png"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Equestrian",
               "id": "mccree-equestrian",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/mccree-equestrian.png"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Table Tennis",
               "id": "mei-table-tennis",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/mei-table-tennis.png"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Badminton",
               "id": "mercy-badminton",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/mercy-badminton.png"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Basketball",
               "id": "pharah-basketball",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/pharah-basketball.png"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "BMX",
               "id": "reaper-bmx",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/reaper-bmx.png"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Wrestling",
               "id": "reinhardt-wrestling",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/reinhardt-wrestling.png"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Diving",
               "id": "roadhog-diving",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/roadhog-diving.png"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Golf",
               "id": "soldier-76-golf",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/soldier-76-golf.png"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Rhythmic",
               "id": "symmetra-rhythmic",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/symmetra-rhythmic.png"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Water Polo",
               "id": "torbjorn-water-polo",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/torbjorn-water-polo.png"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Track",
               "id": "tracer-track",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/tracer-track.png"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Gymnastics",
               "id": "widowmaker-gymnastics",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/widowmaker-gymnastics.png"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Volleyball",
               "id": "winston-volleyball",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/winston-volleyball.png"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Weightlifting",
               "id": "zarya-weightlifting",
               "quality": "common",
               "img": "./resources/updates/SUMMER_GAMES_2016/sprays/zarya-weightlifting.png"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Taekwondo",
               "id": "zenyatta-taekwondo",
               "quality": "common",
@@ -393,127 +393,127 @@ OWI.factory('Data', function() {
               "quality": "common"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "WHOO-VWEEEEEE",
               "id": "bastion-whoovweeeeee",
               "quality": "common"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "I'm #1",
               "id": "dva-im-1",
               "quality": "common"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "I was hoping for a challenge",
               "id": "genji-i-was-hoping-for-a-challenge",
               "quality": "common"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "Ignore all distractions",
               "id": "hanzo-ignore-all-distractions",
               "quality": "common"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "I give it a 10!",
               "id": "junkrat-i-give-it-a-10",
               "quality": "common"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Be champions",
               "id": "lucio-be-champions",
               "quality": "common"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "I don't much like losing",
               "id": "mccree-i-dont-much-like-losing",
               "quality": "common"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Overcome all obstacles",
               "id": "mei-overcome-all-obstacles",
               "quality": "common"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Piece of cake",
               "id": "mercy-piece-of-cake",
               "quality": "common"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "We are in this together",
               "id": "pharah-we-are-in-this-together",
               "quality": "common"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "It's in the refrigerator",
               "id": "reaper-its-in-the-refrigerator",
               "quality": "common"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "100%% German power",
               "id": "reinhardt-100-german-power",
               "quality": "common"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "What's mine is mine",
               "id": "roadhog-whats-mine-is-mine",
               "quality": "common"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "You want a medal?",
               "id": "soldier-76-you-want-a-medal",
               "quality": "common"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Hard work and dedication",
               "id": "symmetra-hard-work-and-dedication",
               "quality": "common"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "More where that came from",
               "id": "torbjorn-more-where-that-came-from",
               "quality": "common"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Eat my dust",
               "id": "tracer-eat-my-dust",
               "quality": "common"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "I don't miss",
               "id": "widowmaker-i-dont-miss",
               "quality": "common"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Playtime's over",
               "id": "winston-playtimes-over",
               "quality": "common"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "No pain, no gain",
               "id": "zarya-no-pain-no-gain",
               "quality": "common"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Strive for improvement",
               "id": "zenyatta-strive-for-improvement",
               "quality": "common"
@@ -521,21 +521,21 @@ OWI.factory('Data', function() {
           ],
           "emotes": [
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "Boxing",
               "id": "bastion-boxing",
               "quality": "epic",
               "video": "./resources/updates/SUMMER_GAMES_2016/emotes/bastion-boxing.webm"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Juggle",
               "id": "lucio-juggle",
               "quality": "epic",
               "video": "./resources/updates/SUMMER_GAMES_2016/emotes/lucio-juggle.webm"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Ribbon",
               "id": "symmetra-ribbon",
               "quality": "epic",
@@ -544,42 +544,42 @@ OWI.factory('Data', function() {
           ],
           "skinsEpic": [
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "American",
               "id": "mccree-american",
               "quality": "epic",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsEpic/mccree-american.jpg"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Eidgenossin",
               "id": "mercy-eidgenossin",
               "quality": "epic",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsEpic/mercy-eidgenossin.jpg"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Nihon",
               "id": "genji-nihon",
               "quality": "epic",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsEpic/genji-nihon.jpg"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "Taegeukgi",
               "id": "dva-taegeukgi",
               "quality": "epic",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsEpic/dva-taegeukgi.jpg"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Tre Kronor",
               "id": "torbjorn-tre-kronor",
               "quality": "epic",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsEpic/torbjorn-tre-kronor.jpg"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Tricolore",
               "id": "widowmaker-tricolore",
               "quality": "epic",
@@ -588,21 +588,21 @@ OWI.factory('Data', function() {
           ],
           "intros": [
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Bicycle Kick",
               "id": "lucio-bicycle-kick",
               "quality": "epic",
               "video": "./resources/updates/SUMMER_GAMES_2016/intros/lucio-bicycle-kick.webm"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Hurdle",
               "id": "tracer-hurdle",
               "quality": "epic",
               "video": "./resources/updates/SUMMER_GAMES_2016/intros/tracer-hurdle.webm"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Shot Put",
               "id": "junkrat-shot-put",
               "quality": "epic",
@@ -611,42 +611,42 @@ OWI.factory('Data', function() {
           ],
           "skinsLegendary": [
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Seleção",
               "id": "lucio-selecao",
               "quality": "legendary",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsLegendary/lucio-selecao.jpg"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Striker",
               "id": "lucio-striker",
               "quality": "legendary",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsLegendary/lucio-striker.jpg"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Sprinter",
               "id": "tracer-sprinter",
               "quality": "legendary",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsLegendary/tracer-sprinter.jpg"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Track and Field",
               "id": "tracer-track-and-field",
               "quality": "legendary",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsLegendary/tracer-track-and-field.jpg"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Champion",
               "id": "zarya-champion",
               "quality": "legendary",
               "img": "./resources/updates/SUMMER_GAMES_2016/skinsLegendary/zarya-champion.jpg"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Weightlifter",
               "id": "zarya-weightlifter",
               "quality": "legendary",
@@ -655,63 +655,63 @@ OWI.factory('Data', function() {
           ],
           "poses": [
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Golf Swing",
               "id": "soldier-76-golf-swing",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/soldier-76-golf-swing.jpg"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Medal",
               "id": "mei-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/mei-medal.jpg"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Medal",
               "id": "pharah-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/pharah-medal.jpg"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Medal",
               "id": "reaper-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/reaper-medal.jpg"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Medal",
               "id": "roadhog-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/roadhog-medal.jpg"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Medal",
               "id": "torbjorn-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/torbjorn-medal.jpg"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Medal",
               "id": "widowmaker-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/widowmaker-medal.jpg"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Medal",
               "id": "winston-medal",
               "quality": "rare",
               "img": "./resources/updates/SUMMER_GAMES_2016/poses/winston-medal.jpg"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Medals",
               "id": "zenyatta-medals",
               "quality": "rare",
@@ -730,14 +730,14 @@ OWI.factory('Data', function() {
         "items": {
           "skinsEpic": [
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Coldhardt",
               "id": "reinhardt-coldhardt",
               "quality": "epic",
               "img": "./resources/updates/HALLOWEEN_2016/skinsEpic/reinhardt-coldhardt.jpg"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "Demon",
               "id": "hanzo-demon",
               "quality": "epic",
@@ -751,35 +751,35 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/HALLOWEEN_2016/skinsEpic/ana-ghoul.jpg"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Immortal",
               "id": "soldier-76-immortal",
               "quality": "epic",
               "img": "./resources/updates/HALLOWEEN_2016/skinsEpic/soldier-76-immortal.jpg"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Possessed",
               "id": "pharah-possessed",
               "quality": "epic",
               "img": "./resources/updates/HALLOWEEN_2016/skinsEpic/pharah-possessed.jpg"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Skullyatta",
               "id": "zenyatta-skullyatta",
               "quality": "epic",
               "img": "./resources/updates/HALLOWEEN_2016/skinsEpic/zenyatta-skullyatta.jpg"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "Tombstone",
               "id": "bastion-tombstone",
               "quality": "epic",
               "img": "./resources/updates/HALLOWEEN_2016/skinsEpic/bastion-tombstone.jpg"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Vampire",
               "id": "symmetra-vampire",
               "quality": "epic",
@@ -795,14 +795,14 @@ OWI.factory('Data', function() {
               "video": "./resources/updates/HALLOWEEN_2016/emotes/ana-candy.webm"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Pumpkin Smash",
               "id": "reinhardt-pumpkin-smash",
               "quality": "epic",
               "video": "./resources/updates/HALLOWEEN_2016/emotes/reinhardt-pumpkin-smash.webm"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Shadow Puppets",
               "id": "winston-shadow-puppets",
               "quality": "epic",
@@ -818,112 +818,112 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/HALLOWEEN_2016/sprays/ana-trick-or-treat.png"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "Trick or Treat",
               "id": "bastion-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/bastion-trick-or-treat.png"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "Trick or Treat",
               "id": "dva-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/dva-trick-or-treat.png"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Trick or Treat",
               "id": "genji-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/genji-trick-or-treat.png"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "Trick or Treat",
               "id": "hanzo-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/hanzo-trick-or-treat.png"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Trick or Treat",
               "id": "junkrat-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/junkrat-trick-or-treat.png"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Trick or Treat",
               "id": "lucio-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/lucio-trick-or-treat.png"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Trick or Treat",
               "id": "mccree-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/mccree-trick-or-treat.png"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Trick or Treat",
               "id": "mei-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/mei-trick-or-treat.png"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Trick or Treat",
               "id": "mercy-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/mercy-trick-or-treat.png"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Trick or Treat",
               "id": "pharah-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/pharah-trick-or-treat.png"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Trick or Treat",
               "id": "reaper-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/reaper-trick-or-treat.png"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Trick or Treat",
               "id": "reinhardt-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/reinhardt-trick-or-treat.png"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Trick or Treat",
               "id": "roadhog-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/roadhog-trick-or-treat.png"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Trick or Treat",
               "id": "soldier-76-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/soldier-76-trick-or-treat.png"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Trick or Treat",
               "id": "symmetra-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/symmetra-trick-or-treat.png"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Trick or Treat",
               "id": "torbjorn-trick-or-treat",
               "quality": "common",
@@ -935,14 +935,14 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/HALLOWEEN_2016/sprays/boo.png"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Trick or Treat",
               "id": "tracer-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/tracer-trick-or-treat.png"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Trick or Treat",
               "id": "widowmaker-trick-or-treat",
               "quality": "common",
@@ -954,21 +954,21 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/HALLOWEEN_2016/sprays/boop.png"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Trick or Treat",
               "id": "winston-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/winston-trick-or-treat.png"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Trick or Treat",
               "id": "zarya-trick-or-treat",
               "quality": "common",
               "img": "./resources/updates/HALLOWEEN_2016/sprays/zarya-trick-or-treat.png"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Trick or Treat",
               "id": "zenyatta-trick-or-treat",
               "quality": "common",
@@ -1023,127 +1023,127 @@ OWI.factory('Data', function() {
               "quality": "common"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "W-W-Wooooo...?",
               "id": "bastion-wwwooooo",
               "quality": "common"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "Happy Halloween!",
               "id": "dva-happy-halloween",
               "quality": "common"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "My Halloween costume?",
               "id": "genji-my-halloween-costume",
               "quality": "common"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "You are already dead",
               "id": "hanzo-you-are-already-dead",
               "quality": "common"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Happy Halloween",
               "id": "junkrat-happy-halloween",
               "quality": "common"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Killed it!",
               "id": "lucio-killed-it",
               "quality": "common"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "It's your funeral",
               "id": "mccree-its-your-funeral",
               "quality": "common"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Scary!",
               "id": "mei-scary",
               "quality": "common"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Superstition",
               "id": "mercy-superstition",
               "quality": "common"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Dead or alive",
               "id": "pharah-dead-or-alive",
               "quality": "common"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "I work the graveyard shift",
               "id": "reaper-i-work-the-graveyard-shift",
               "quality": "common"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Smashing",
               "id": "reinhardt-smashing",
               "quality": "common"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Want some candy?",
               "id": "roadhog-want-some-candy",
               "quality": "common"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Knock knock",
               "id": "soldier-76-knock-knock",
               "quality": "common"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "A frightening thought",
               "id": "symmetra-a-frightening-thought",
               "quality": "common"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "If you build it",
               "id": "torbjorn-if-you-build-it",
               "quality": "common"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Ooh, Scary!",
               "id": "tracer-ooh-scary",
               "quality": "common"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "The party is over",
               "id": "widowmaker-the-party-is-over",
               "quality": "common"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "This is not a costume",
               "id": "winston-this-is-not-a-costume",
               "quality": "common"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Never forget the fallen",
               "id": "zarya-never-forget-the-fallen",
               "quality": "common"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Trick or treat?",
               "id": "zenyatta-trick-or-treat",
               "quality": "common"
@@ -1151,7 +1151,7 @@ OWI.factory('Data', function() {
           ],
           "poses": [
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "R.I.P.",
               "id": "reaper-rip",
               "quality": "rare",
@@ -1165,140 +1165,140 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/HALLOWEEN_2016/poses/ana-rip.jpg"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "R.I.P.",
               "id": "dva-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/dva-rip.jpg"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "R.I.P.",
               "id": "genji-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/genji-rip.jpg"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "R.I.P.",
               "id": "hanzo-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/hanzo-rip.jpg"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "R.I.P.",
               "id": "junkrat-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/junkrat-rip.jpg"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "R.I.P.",
               "id": "lucio-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/lucio-rip.jpg"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "R.I.P.",
               "id": "mccree-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/mccree-rip.jpg"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "R.I.P.",
               "id": "mei-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/mei-rip.jpg"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "R.I.P.",
               "id": "mercy-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/mercy-rip.jpg"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "R.I.P.",
               "id": "pharah-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/pharah-rip.jpg"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "R.I.P.",
               "id": "bastion-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/bastion-rip.jpg"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "R.I.P.",
               "id": "reinhardt-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/reinhardt-rip.jpg"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "R.I.P.",
               "id": "roadhog-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/roadhog-rip.jpg"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "R.I.P.",
               "id": "soldier-76-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/soldier-76-rip.jpg"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "R.I.P.",
               "id": "symmetra-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/symmetra-rip.jpg"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "R.I.P.",
               "id": "torbjorn-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/torbjorn-rip.jpg"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "R.I.P.",
               "id": "tracer-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/tracer-rip.jpg"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "R.I.P.",
               "id": "widowmaker-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/widowmaker-rip.jpg"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "R.I.P.",
               "id": "winston-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/winston-rip.jpg"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "R.I.P.",
               "id": "zarya-rip",
               "quality": "rare",
               "img": "./resources/updates/HALLOWEEN_2016/poses/zarya-rip.jpg"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "R.I.P.",
               "id": "zenyatta-rip",
               "quality": "rare",
@@ -1307,21 +1307,21 @@ OWI.factory('Data', function() {
           ],
           "intros": [
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Eternal Rest",
               "id": "reaper-eternal-rest",
               "quality": "epic",
               "video": "./resources/updates/HALLOWEEN_2016/intros/reaper-eternal-rest.webm"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Ice Scream",
               "id": "mei-ice-scream",
               "quality": "epic",
               "video": "./resources/updates/HALLOWEEN_2016/intros/mei-ice-scream.webm"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Pumpkin Carving",
               "id": "genji-pumpkin-carving",
               "quality": "epic",
@@ -1330,28 +1330,28 @@ OWI.factory('Data', function() {
           ],
           "skinsLegendary": [
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Dr. Junkenstein",
               "id": "junkrat-dr-junkenstein",
               "quality": "legendary",
               "img": "./resources/updates/HALLOWEEN_2016/skinsLegendary/junkrat-dr-junkenstein.jpg"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Witch",
               "id": "mercy-witch",
               "quality": "legendary",
               "img": "./resources/updates/HALLOWEEN_2016/skinsLegendary/mercy-witch.jpg"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Pumpkin",
               "id": "reaper-pumpkin",
               "quality": "legendary",
               "img": "./resources/updates/HALLOWEEN_2016/skinsLegendary/reaper-pumpkin.jpg"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Junkenstein's Monster",
               "id": "roadhog-junkensteins-monster",
               "quality": "legendary",
@@ -1480,7 +1480,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/ana-ornament.png"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "ORNAMENT",
               "id": "bastion-ornament",
               "quality": "common",
@@ -1489,7 +1489,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/bastion-ornament.png"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "FESTIVE",
               "id": "bastion-festive",
               "quality": "common",
@@ -1498,7 +1498,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/bastion-ornament.png"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "ORNAMENT",
               "id": "dva-ornament",
               "quality": "common",
@@ -1507,7 +1507,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/dva-ornament.png"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "COOKIE",
               "id": "dva-cookie",
               "quality": "common",
@@ -1516,7 +1516,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/dva-ornament.png"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Kadomatsu",
               "id": "genji-kadomatsu",
               "quality": "common",
@@ -1525,7 +1525,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/genji-ornament.png"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Ornament",
               "id": "genji-ornament",
               "quality": "common",
@@ -1534,7 +1534,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/genji-ornament.png"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "Kadomatsu",
               "id": "hanzo-kadomatsu",
               "quality": "common",
@@ -1543,7 +1543,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/hanzo-ornament.png"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "Ornament",
               "id": "hanzo-ornament",
               "quality": "common",
@@ -1552,7 +1552,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/hanzo-ornament.png"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "\"WINTER\"",
               "id": "junkrat-winter",
               "quality": "common",
@@ -1561,7 +1561,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/junkrat-ornament.png"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Ornament",
               "id": "junkrat-ornament",
               "quality": "common",
@@ -1570,7 +1570,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/junkrat-ornament.png"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Ornament",
               "id": "lucio-ornament",
               "quality": "common",
@@ -1579,7 +1579,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/lucio-ornament.png"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Hockey",
               "id": "lucio-hockey",
               "quality": "common",
@@ -1588,7 +1588,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/lucio-ornament.png"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Ornament",
               "id": "mccree-ornament",
               "quality": "common",
@@ -1597,7 +1597,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/mccree-ornament.png"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Ugly Sweater",
               "id": "mccree-ugly-sweater",
               "quality": "common",
@@ -1606,7 +1606,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/mccree-ornament.png"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Sculpting",
               "id": "mei-sculpting",
               "quality": "common",
@@ -1615,7 +1615,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/mei-ornament.png"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Ornament",
               "id": "mei-ornament",
               "quality": "common",
@@ -1624,7 +1624,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/mei-ornament.png"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Snow Angel",
               "id": "mercy-snow-angel",
               "quality": "common",
@@ -1633,7 +1633,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/mercy-ornament.png"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Ornament",
               "id": "mercy-ornament",
               "quality": "common",
@@ -1642,7 +1642,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/mercy-ornament.png"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Ice Fishing",
               "id": "pharah-ice-fishing",
               "quality": "common",
@@ -1651,7 +1651,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/pharah-ornament.png"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Ornament",
               "id": "pharah-ornament",
               "quality": "common",
@@ -1660,7 +1660,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/pharah-ornament.png"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Stocking",
               "id": "reaper-stocking",
               "quality": "common",
@@ -1669,7 +1669,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/reaper-ornament.png"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Ornament",
               "id": "reaper-ornament",
               "quality": "common",
@@ -1678,7 +1678,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/reaper-ornament.png"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Ice Fishing",
               "id": "reinhardt-ice-fishing",
               "quality": "common",
@@ -1687,7 +1687,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/reinhardt-ornament.png"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Ornament",
               "id": "reinhardt-ornament",
               "quality": "common",
@@ -1696,7 +1696,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/reinhardt-ornament.png"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "\"Winter\"",
               "id": "roadhog-winter",
               "quality": "common",
@@ -1705,7 +1705,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/roadhog-ornament.png"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Ornament",
               "id": "roadhog-ornament",
               "quality": "common",
@@ -1714,7 +1714,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/roadhog-ornament.png"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Ornament",
               "id": "soldier-76-ornament",
               "quality": "common",
@@ -1723,7 +1723,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/soldier-76-ornament.png"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Army Man: 76",
               "id": "soldier-76-army-man-76",
               "quality": "common",
@@ -1732,7 +1732,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/soldier-76-ornament.png"
             },
             {
-              "hero": "Sombra",
+              "hero": "Sombra", "heroCN": "黑影",
               "name": "Puppet",
               "id": "sombra-puppet",
               "quality": "common",
@@ -1741,7 +1741,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/sombra-ornament.png"
             },
             {
-              "hero": "Sombra",
+              "hero": "Sombra", "heroCN": "黑影",
               "name": "Ornament",
               "id": "sombra-ornament",
               "quality": "common",
@@ -1750,7 +1750,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/sombra-ornament.png"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Snowflake",
               "id": "symmetra-snowflake",
               "quality": "common",
@@ -1759,7 +1759,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/symmetra-ornament.png"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Ornament",
               "id": "symmetra-ornament",
               "quality": "common",
@@ -1768,7 +1768,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/symmetra-ornament.png"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Workshop",
               "id": "torbjorn-workshop",
               "quality": "common",
@@ -1777,7 +1777,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/torbjorn-ornament.png"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Ornament",
               "id": "torbjorn-ornament",
               "quality": "common",
@@ -1786,7 +1786,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/torbjorn-ornament.png"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Snowboarding",
               "id": "tracer-snowboarding",
               "quality": "common",
@@ -1795,7 +1795,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/tracer-ornament.png"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Ornament",
               "id": "tracer-ornament",
               "quality": "common",
@@ -1804,7 +1804,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/tracer-ornament.png"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Skiing",
               "id": "widowmaker-skiing",
               "quality": "common",
@@ -1813,7 +1813,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/widowmaker-ornament.png"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Ornament",
               "id": "widowmaker-ornament",
               "quality": "common",
@@ -1822,7 +1822,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/widowmaker-ornament.png"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Presents",
               "id": "winston-presents",
               "quality": "common",
@@ -1831,7 +1831,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/winston-ornament.png"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Ornament",
               "id": "winston-ornament",
               "quality": "common",
@@ -1840,7 +1840,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/winston-ornament.png"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Matryoshka",
               "id": "zarya-matryoshka",
               "quality": "common",
@@ -1849,7 +1849,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/zarya-ornament.png"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Ornament",
               "id": "zarya-ornament",
               "quality": "common",
@@ -1858,7 +1858,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/zarya-ornament.png"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Snowball Fight",
               "id": "zenyatta-snowball-fight",
               "quality": "common",
@@ -1867,7 +1867,7 @@ OWI.factory('Data', function() {
               "ornamentURL": "./resources/updates/WINTER_WONDERLAND_2016/sprays/zenyatta-ornament.png"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Ornament",
               "id": "zenyatta-ornament",
               "quality": "common",
@@ -1910,133 +1910,133 @@ OWI.factory('Data', function() {
               "quality": "common"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "DWEE DOO HOO",
               "id": "bastion-dwee-doo-hoo",
               "quality": "common"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "Aw, you shouldn't have",
               "id": "dva-aw-you-shouldnt-have",
               "quality": "common"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "Merry Christmas!",
               "id": "genji-merry-christmas",
               "quality": "common"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "A gift for you",
               "id": "hanzo-a-gift-for-you",
               "quality": "common"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat","heroCN": "狂鼠",
               "name": "Merry Christmas",
               "id": "junkrat-merry-christmas",
               "quality": "common"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Happy holidays!",
               "id": "lucio-happy-holidays",
               "quality": "common"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Had to break the ice",
               "id": "mccree-had-to-break-the-ice",
               "quality": "common"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "I got you something!",
               "id": "mei-i-got-you-something",
               "quality": "common"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Your guardian angel",
               "id": "mercy-your-guardian-angel",
               "quality": "common"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "The forecast",
               "id": "pharah-the-forecast",
               "quality": "common"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Holiday spirit",
               "id": "reaper-holiday-spirit",
               "quality": "common"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "You're on my naughty list",
               "id": "reinhardt-youre-on-my-naughty-list",
               "quality": "common"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Ho ho ho",
               "id": "roadhog-ho-ho-ho",
               "quality": "common"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Stay frosty",
               "id": "soldier-76-stay-frosty",
               "quality": "common"
             },
             {
-              "hero": "Sombra",
+              "hero": "Sombra", "heroCN": "黑影",
               "name": "I know who's been naughty",
               "id": "sombra-i-know-whos-been-naughty",
               "quality": "common"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "I made you something",
               "id": "symmetra-i-made-you-something",
               "quality": "common"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Made to order",
               "id": "torbjorn-made-to-order",
               "quality": "common"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "It's in the bag",
               "id": "tracer-its-in-the-bag",
               "quality": "common"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Exquisite",
               "id": "widowmaker-exquisite",
               "quality": "common"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "I... got you something",
               "id": "winston-i-got-you-something",
               "quality": "common"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "For the Motherland",
               "id": "zarya-for-the-motherland",
               "quality": "common"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "No snowflake",
               "id": "zenyatta-no-snowflake",
               "quality": "common"
@@ -2044,14 +2044,14 @@ OWI.factory('Data', function() {
           ],
           "poses": [
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "Festive",
               "id": "dva-festive",
               "quality": "rare",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/poses/dva-festive.jpg"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "Mistletoe",
               "id": "mercy-mistletoe",
               "quality": "rare",
@@ -2065,28 +2065,28 @@ OWI.factory('Data', function() {
               "img": "./resources/updates/WINTER_WONDERLAND_2016/poses/ana-toast.jpg"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Toast",
               "id": "pharah-toast",
               "quality": "rare",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/poses/pharah-toast.jpg"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Toast",
               "id": "reinhardt-toast",
               "quality": "rare",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/poses/reinhardt-toast.jpg"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "Toast",
               "id": "soldier-76-toast",
               "quality": "rare",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/poses/soldier-76-toast.jpg"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Toast",
               "id": "torbjorn-toast",
               "quality": "rare",
@@ -2095,49 +2095,49 @@ OWI.factory('Data', function() {
           ],
           "skinsEpic": [
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Andes",
               "id": "lucio-andes",
               "quality": "epic",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsEpic/lucio-andes.jpg"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "Frostbite",
               "id": "pharah-frostbite",
               "quality": "epic",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsEpic/pharah-frostbite.jpg"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Frosted",
               "id": "zarya-frosted",
               "quality": "epic",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsEpic/zarya-frosted.jpg"
             },
             {
-              "hero": "Sombra",
+              "hero": "Sombra", "heroCN": "黑影",
               "name": "Peppermint",
               "id": "sombra-peppermint",
               "quality": "epic",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsEpic/sombra-peppermint.jpg"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "Rudolph",
               "id": "roadhog-rudolph",
               "quality": "epic",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsEpic/roadhog-rudolph.jpg"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Scrooge",
               "id": "mccree-scrooge",
               "quality": "epic",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsEpic/mccree-scrooge.jpg"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Shiver",
               "id": "reaper-shiver",
               "quality": "epic",
@@ -2146,14 +2146,14 @@ OWI.factory('Data', function() {
           ],
           "emotes": [
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Hat Trick",
               "id": "mccree-hat-trick",
               "quality": "epic",
               "video": "./resources/updates/WINTER_WONDERLAND_2016/emotes/mccree-hat-trick.webm"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "legendary": true,
               "name": "Mystery Gift",
               "id": "zarya-mystery-gift",
@@ -2161,7 +2161,7 @@ OWI.factory('Data', function() {
               "video": "./resources/updates/WINTER_WONDERLAND_2016/emotes/zarya-mystery-gift.webm"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Snowman",
               "id": "mei-snowman",
               "quality": "epic",
@@ -2170,35 +2170,35 @@ OWI.factory('Data', function() {
           ],
           "skinsLegendary": [
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Mei-rry",
               "id": "mei-meirry",
               "quality": "legendary",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsLegendary/mei-meirry.jpg"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Santaclad",
               "id": "torbjorn-santaclad",
               "quality": "legendary",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsLegendary/torbjorn-santaclad.jpg"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Jingle",
               "id": "tracer-jingle",
               "quality": "legendary",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsLegendary/tracer-jingle.jpg"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "Yeti",
               "id": "winston-yeti",
               "quality": "legendary",
               "img": "./resources/updates/WINTER_WONDERLAND_2016/skinsLegendary/winston-yeti.jpg"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Nutcracker",
               "id": "zenyatta-nutcracker",
               "quality": "legendary",
@@ -2207,14 +2207,14 @@ OWI.factory('Data', function() {
           ],
           "intros": [
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Snowflakes",
               "id": "symmetra-snowflakes",
               "quality": "epic",
               "video": "./resources/updates/WINTER_WONDERLAND_2016/intros/symmetra-snowflakes.webm"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "Under the Mistletoe",
               "id": "widowmaker-under-the-mistletoe",
               "quality": "epic",
@@ -2356,7 +2356,7 @@ OWI.factory('Data', function() {
         }
       },
       "YEAR_OF_THE_ROOSTER_2017": {
-        "name": "Year of the Rooster 2017",
+        "name": "金鸡鸣春 2017",
         "id": "YEAR_OF_THE_ROOSTER_2017",
         "dates": {
           "start": "1485180000000",
@@ -2365,43 +2365,43 @@ OWI.factory('Data', function() {
         "items": {
           "skinsEpic": [
             {
-              "hero": "Junkrat",
-              "name": "Firework",
+              "hero": "Junkrat", "heroCN": "狂鼠",
+              "name": "爆竹",
               "id": "junkrat-firework",
               "quality": "epic",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsEpic/junkrat-firework.jpg"
             },
             {
-              "hero": "Mercy",
-              "name": "Golden",
+              "hero": "Mercy", "heroCN": "天使",
+              "name": "金黄",
               "id": "mercy-golden",
               "quality": "epic",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsEpic/mercy-golden.jpg"
             },
             {
-              "hero": "Symmetra",
-              "name": "Qipao",
+              "hero": "Symmetra", "heroCN": "秩序之光",
+              "name": "旗袍",
               "id": "symmetra-qipao",
               "quality": "epic",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsEpic/symmetra-qipao.jpg"
             },
             {
-              "hero": "Bastion",
-              "name": "Rooster",
+              "hero": "Bastion", "heroCN": "堡垒",
+              "name": "幺鸡堡垒",
               "id": "bastion-rooster",
               "quality": "epic",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsEpic/bastion-rooster.jpg"
             },
             {
-              "hero": "Tracer",
-              "name": "Rose",
+              "hero": "Tracer", "heroCN": "猎空",
+              "name": "玫瑰",
               "id": "tracer-rose",
               "quality": "epic",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsEpic/tracer-rose.jpg"
             },
             {
-              "hero": "Ana",
-              "name": "Tal",
+              "hero": "Ana", "heroCN": "安娜",
+              "name": "河回假面",
               "id": "ana-tal",
               "quality": "epic",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsEpic/ana-tal.jpg"
@@ -2409,8 +2409,8 @@ OWI.factory('Data', function() {
           ],
           "sprays": [
             {
-              "hero": "Ana",
-              "name": "Dance",
+              "hero": "Ana", "heroCN": "安娜",
+              "name": "秧歌",
               "id": "ana-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/ana-dance.png",
@@ -2418,8 +2418,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/ana-dragon-dance.png"
             },
             {
-              "hero": "Ana",
-              "name": "Dragon Dance",
+              "hero": "Ana", "heroCN": "安娜",
+              "name": "舞龙",
               "id": "ana-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/ana-dragon-dance.png",
@@ -2427,8 +2427,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/ana-dragon-dance.png"
             },
             {
-              "hero": "Bastion",
-              "name": "Dragon Dance",
+              "hero": "Bastion", "heroCN": "堡垒",
+              "name": "舞龙",
               "id": "bastion-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/bastion-dragon-dance.png",
@@ -2436,8 +2436,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/bastion-dragon-dance.png"
             },
             {
-              "hero": "Bastion",
-              "name": "Bast-yum",
+              "hero": "Bastion", "heroCN": "堡垒",
+              "name": "堡证美味",
               "id": "bastion-bastyum",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/bastion-bastyum.png",
@@ -2445,8 +2445,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/bastion-dragon-dance.png"
             },
             {
-              "hero": "D.Va",
-              "name": "Seesaw",
+              "hero": "D.Va", "heroCN": "D.VA",
+              "name": "跷跷板",
               "id": "dva-seesaw",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/dva-seesaw.png",
@@ -2454,8 +2454,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/dva-dragon-dance.png"
             },
             {
-              "hero": "D.Va",
-              "name": "Dragon Dance",
+              "hero": "D.Va", "heroCN": "D.VA",
+              "name": "舞龙",
               "id": "dva-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/dva-dragon-dance.png",
@@ -2463,8 +2463,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/dva-dragon-dance.png"
             },
             {
-              "hero": "Genji",
-              "name": "Dragon Dance",
+              "hero": "Genji", "heroCN": " 源氏",
+              "name": "舞龙",
               "id": "genji-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/genji-dragon-dance.png",
@@ -2472,8 +2472,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/genji-dragon-dance.png"
             },
             {
-              "hero": "Genji",
-              "name": "Green Dragon",
+              "hero": "Genji", "heroCN": " 源氏",
+              "name": "青龙",
               "id": "genji-green-dragon",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/genji-green-dragon.png",
@@ -2481,8 +2481,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/genji-dragon-dance.png"
             },
             {
-              "hero": "Hanzo",
-              "name": "Blue Dragon",
+              "hero": "Hanzo", "heroCN": "半藏",
+              "name": "蓝龙",
               "id": "hanzo-blue-dragon",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/hanzo-blue-dragon.png",
@@ -2490,8 +2490,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/hanzo-dragon-dance.png"
             },
             {
-              "hero": "Hanzo",
-              "name": "Dragon Dance",
+              "hero": "Hanzo", "heroCN": "半藏",
+              "name": "舞龙",
               "id": "hanzo-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/hanzo-dragon-dance.png",
@@ -2499,8 +2499,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/hanzo-dragon-dance.png"
             },
             {
-              "hero": "Junkrat",
-              "name": "Dragon Dance",
+              "hero": "Junkrat", "heroCN": "狂鼠",
+              "name": "舞龙",
               "id": "junkrat-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/junkrat-dragon-dance.png",
@@ -2508,8 +2508,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/junkrat-dragon-dance.png"
             },
             {
-              "hero": "Junkrat",
-              "name": "I'm flying!",
+              "hero": "Junkrat", "heroCN": "狂鼠",
+              "name": "上天啦！",
               "id": "junkrat-im-flying",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/junkrat-im-flying.png",
@@ -2517,7 +2517,7 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/junkrat-dragon-dance.png"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "Keep Ups",
               "id": "lucio-keep-ups",
               "quality": "common",
@@ -2526,8 +2526,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/lucio-dragon-dance.png"
             },
             {
-              "hero": "Lúcio",
-              "name": "Dragon Dance",
+              "hero": "Lúcio", "heroCN": "卢西奥",
+              "name": "舞龙",
               "id": "lucio-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/lucio-dragon-dance.png",
@@ -2535,8 +2535,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/lucio-dragon-dance.png"
             },
             {
-              "hero": "McCree",
-              "name": "Call It",
+              "hero": "McCree", "heroCN": "麦克雷",
+              "name": "猜硬币",
               "id": "mccree-call-it",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mccree-call-it.png",
@@ -2544,8 +2544,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mccree-dragon-dance.png"
             },
             {
-              "hero": "McCree",
-              "name": "Dragon Dance",
+              "hero": "McCree", "heroCN": "麦克雷",
+              "name": "舞龙",
               "id": "mccree-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mccree-dragon-dance.png",
@@ -2553,8 +2553,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mccree-dragon-dance.png"
             },
             {
-              "hero": "Mei",
-              "name": "Fortune",
+              "hero": "Mei", "heroCN": "美",
+              "name": "恭喜发财",
               "id": "mei-fortune",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mei-fortune.png",
@@ -2562,8 +2562,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mei-dragon-dance.png"
             },
             {
-              "hero": "Mei",
-              "name": "Dragon Dance",
+              "hero": "Mei", "heroCN": "美",
+              "name": "舞龙",
               "id": "mei-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mei-dragon-dance.png",
@@ -2571,8 +2571,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mei-dragon-dance.png"
             },
             {
-              "hero": "Mercy",
-              "name": "Dragon Dance",
+              "hero": "Mercy", "heroCN": "天使",
+              "name": "舞龙",
               "id": "mercy-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mercy-dragon-dance.png",
@@ -2580,8 +2580,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mercy-dragon-dance.png"
             },
             {
-              "hero": "Mercy",
-              "name": "Parasol",
+              "hero": "Mercy", "heroCN": "天使",
+              "name": "撑伞",
               "id": "mercy-parasol",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mercy-parasol.png",
@@ -2589,8 +2589,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/mercy-dragon-dance.png"
             },
             {
-              "hero": "Pharah",
-              "name": "Happy New Year",
+              "hero": "Pharah", "heroCN": "法老之鹰",
+              "name": "新年快乐",
               "id": "pharah-happy-new-year",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/pharah-happy-new-year.png",
@@ -2598,8 +2598,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/pharah-dragon-dance.png"
             },
             {
-              "hero": "Pharah",
-              "name": "Dragon Dance",
+              "hero": "Pharah", "heroCN": "法老之鹰",
+              "name": "舞龙",
               "id": "pharah-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/pharah-dragon-dance.png",
@@ -2607,8 +2607,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/pharah-dragon-dance.png"
             },
             {
-              "hero": "Reaper",
-              "name": "Fire Blossom",
+              "hero": "Reaper", "heroCN": "死神",
+              "name": "火焰绽放",
               "id": "reaper-fire-blossom",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reaper-fire-blossom.png",
@@ -2616,8 +2616,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reaper-dragon-dance.png"
             },
             {
-              "hero": "Reaper",
-              "name": "Dragon Dance",
+              "hero": "Reaper", "heroCN": "死神",
+              "name": "舞龙",
               "id": "reaper-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reaper-dragon-dance.png",
@@ -2625,8 +2625,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reaper-dragon-dance.png"
             },
             {
-              "hero": "Reinhardt",
-              "name": "Lion Dance",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
+              "name": "舞狮",
               "id": "reinhardt-lion-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reinhardt-lion-dance.png",
@@ -2634,8 +2634,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reinhardt-dragon-dance.png"
             },
             {
-              "hero": "Reinhardt",
-              "name": "Dragon Dance",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
+              "name": "舞龙",
               "id": "reinhardt-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reinhardt-dragon-dance.png",
@@ -2643,8 +2643,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/reinhardt-dragon-dance.png"
             },
             {
-              "hero": "Roadhog",
-              "name": "Steamed Buns",
+              "hero": "Roadhog", "heroCN": "路霸",
+              "name": "蒸包子",
               "id": "roadhog-steamed-buns",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/roadhog-steamed-buns.png",
@@ -2652,8 +2652,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/roadhog-dragon-dance.png"
             },
             {
-              "hero": "Roadhog",
-              "name": "Dragon Dance",
+              "hero": "Roadhog", "heroCN": "路霸",
+              "name": "舞龙",
               "id": "roadhog-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/roadhog-dragon-dance.png",
@@ -2661,8 +2661,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/roadhog-dragon-dance.png"
             },
             {
-              "hero": "Soldier: 76",
-              "name": "Folded Hands",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
+              "name": "拜年",
               "id": "soldier-76-folded-hands",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/soldier-76-folded-hands.png",
@@ -2670,8 +2670,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/soldier-76-dragon-dance.png"
             },
             {
-              "hero": "Soldier: 76",
-              "name": "Dragon Dance",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
+              "name": "舞龙",
               "id": "soldier-76-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/soldier-76-dragon-dance.png",
@@ -2679,8 +2679,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/soldier-76-dragon-dance.png"
             },
             {
-              "hero": "Sombra",
-              "name": "Dragon Dance",
+              "hero": "Sombra", "heroCN": "黑影",
+              "name": "舞龙",
               "id": "sombra-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/sombra-dragon-dance.png",
@@ -2688,8 +2688,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/sombra-dragon-dance.png"
             },
             {
-              "hero": "Sombra",
-              "name": "Fortunate",
+              "hero": "Sombra", "heroCN": "黑影",
+              "name": "恭喜发财",
               "id": "sombra-fortunate",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/sombra-fortunate.png",
@@ -2697,8 +2697,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/sombra-dragon-dance.png"
             },
             {
-              "hero": "Symmetra",
-              "name": "Lantern",
+              "hero": "Symmetra", "heroCN": "秩序之光",
+              "name": "灯笼",
               "id": "symmetra-lantern",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/symmetra-lantern.png",
@@ -2706,8 +2706,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/symmetra-dragon-dance.png"
             },
             {
-              "hero": "Symmetra",
-              "name": "Dragon Dance",
+              "hero": "Symmetra", "heroCN": "秩序之光",
+              "name": "舞龙",
               "id": "symmetra-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/symmetra-dragon-dance.png",
@@ -2715,8 +2715,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/symmetra-dragon-dance.png"
             },
             {
-              "hero": "Torbjörn",
-              "name": "Gold",
+              "hero": "Torbjörn", "heroCN": "托比昂",
+              "name": "元宝",
               "id": "torbjorn-gold",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/torbjorn-gold.png",
@@ -2724,8 +2724,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/torbjorn-dragon-dance.png"
             },
             {
-              "hero": "Torbjörn",
-              "name": "Dragon Dance",
+              "hero": "Torbjörn", "heroCN": "托比昂",
+              "name": "舞龙",
               "id": "torbjorn-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/torbjorn-dragon-dance.png",
@@ -2733,8 +2733,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/torbjorn-dragon-dance.png"
             },
             {
-              "hero": "Tracer",
-              "name": "Fan Dance",
+              "hero": "Tracer", "heroCN": "猎空",
+              "name": "舞扇",
               "id": "tracer-fan-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/tracer-fan-dance.png",
@@ -2742,8 +2742,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/tracer-dragon-dance.png"
             },
             {
-              "hero": "Tracer",
-              "name": "Dragon Dance",
+              "hero": "Tracer", "heroCN": "猎空",
+              "name": "舞龙",
               "id": "tracer-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/tracer-dragon-dance.png",
@@ -2751,8 +2751,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/tracer-dragon-dance.png"
             },
             {
-              "hero": "Widowmaker",
-              "name": "Hairpin",
+              "hero": "Widowmaker", "heroCN": "黑百合",
+              "name": "发髻",
               "id": "widowmaker-hairpin",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/widowmaker-hairpin.png",
@@ -2760,8 +2760,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/widowmaker-dragon-dance.png"
             },
             {
-              "hero": "Widowmaker",
-              "name": "Dragon Dance",
+              "hero": "Widowmaker", "heroCN": "黑百合",
+              "name": "舞龙",
               "id": "widowmaker-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/widowmaker-dragon-dance.png",
@@ -2769,8 +2769,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/widowmaker-dragon-dance.png"
             },
             {
-              "hero": "Winston",
-              "name": "Kite",
+              "hero": "Winston", "heroCN": "温斯顿",
+              "name": "风筝",
               "id": "winston-kite",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/winston-kite.png",
@@ -2778,8 +2778,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/winston-dragon-dance.png"
             },
             {
-              "hero": "Winston",
-              "name": "Dragon Dance",
+              "hero": "Winston", "heroCN": "温斯顿",
+              "name": "舞龙",
               "id": "winston-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/winston-dragon-dance.png",
@@ -2787,8 +2787,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/winston-dragon-dance.png"
             },
             {
-              "hero": "Zarya",
-              "name": "Calories",
+              "hero": "Zarya", "heroCN": "查莉娅",
+              "name": "补充能量",
               "id": "zarya-calories",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zarya-calories.png",
@@ -2796,8 +2796,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zarya-dragon-dance.png"
             },
             {
-              "hero": "Zarya",
-              "name": "Dragon Dance",
+              "hero": "Zarya", "heroCN": "查莉娅",
+              "name": "舞龙",
               "id": "zarya-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zarya-dragon-dance.png",
@@ -2805,8 +2805,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zarya-dragon-dance.png"
             },
             {
-              "hero": "Zenyatta",
-              "name": "Yut Nori",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
+              "name": "柶戏",
               "id": "zenyatta-yut-nori",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zenyatta-yut-nori.png",
@@ -2814,8 +2814,8 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zenyatta-dragon-dance.png"
             },
             {
-              "hero": "Zenyatta",
-              "name": "Dragon Dance",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
+              "name": "舞龙",
               "id": "zenyatta-dragon-dance",
               "quality": "common",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zenyatta-dragon-dance.png",
@@ -2823,175 +2823,175 @@ OWI.factory('Data', function() {
               "dragonURL": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/zenyatta-dragon-dance.png"
             },
             {
-              "name": "Year of the Rooster",
+              "name": "金鸡鸣春",
               "id": "year-of-the-rooster",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/year-of-the-rooster.png",
               "quality": "common"
             },
             {
-              "name": "Red Envelope",
+              "name": "红包",
               "id": "red-envelope",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/red-envelope.png",
               "quality": "common"
             },
             {
-              "name": "Lucky Pouch",
+              "name": "福袋",
               "id": "lucky-pouch",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/lucky-pouch.png",
               "quality": "common"
             },
             {
-              "name": "Dragon's Head",
+              "name": "龙首",
               "id": "dragons-head",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/dragons-head.png",
               "quality": "common"
             },
             {
-              "name": "Awakened Lion",
+              "name": "醒狮",
               "id": "awakened-lion",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/awakened-lion.png"
             },
             {
-              "name": "Auspicious Lion",
+              "name": "舞狮",
               "id": "auspicious-lion",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/sprays/auspicious-lion.png"
             }
           ],
           "voicelines": [
             {
-              "hero": "Ana",
+              "hero": "Ana", "heroCN": "安娜",
               "name": "The moon in winter",
               "id": "ana-the-moon-in-winter",
               "quality": "common"
             },
             {
-              "hero": "Bastion",
+              "hero": "Bastion", "heroCN": "堡垒",
               "name": "Woop doo woo dun woop",
               "id": "bastion-woop-doo-woo-dun-woop",
               "quality": "common"
             },
             {
-              "hero": "D.Va",
+              "hero": "D.Va", "heroCN": "D.VA",
               "name": "The best things in life",
               "id": "dva-the-best-things-in-life",
               "quality": "common"
             },
             {
-              "hero": "Genji",
+              "hero": "Genji", "heroCN": " 源氏",
               "name": "To know yourself",
               "id": "genji-to-know-yourself",
               "quality": "common"
             },
             {
-              "hero": "Hanzo",
+              "hero": "Hanzo", "heroCN": "半藏",
               "name": "When the moon is full",
               "id": "hanzo-when-the-moon-is-full",
               "quality": "common"
             },
             {
-              "hero": "Junkrat",
+              "hero": "Junkrat", "heroCN": "狂鼠",
               "name": "Gong Xi Fa Cai",
               "id": "junkrat-gong-xi-fa-cai",
               "quality": "common"
             },
             {
-              "hero": "Lúcio",
+              "hero": "Lúcio", "heroCN": "卢西奥",
               "name": "I make this look good...",
               "id": "lucio-i-make-this-look-good",
               "quality": "common"
             },
             {
-              "hero": "McCree",
+              "hero": "McCree", "heroCN": "麦克雷",
               "name": "Calls for a celebration",
               "id": "mccree-calls-for-a-celebration",
               "quality": "common"
             },
             {
-              "hero": "Mei",
+              "hero": "Mei", "heroCN": "美",
               "name": "Wishing you prosperity",
               "id": "mei-wishing-you-prosperity",
               "quality": "common"
             },
             {
-              "hero": "Mercy",
+              "hero": "Mercy", "heroCN": "天使",
               "name": "A most impressive display",
               "id": "mercy-a-most-impressive-display",
               "quality": "common"
             },
             {
-              "hero": "Pharah",
+              "hero": "Pharah", "heroCN": "法老之鹰",
               "name": "I keep the peace",
               "id": "pharah-i-keep-the-peace",
               "quality": "common"
             },
             {
-              "hero": "Reaper",
+              "hero": "Reaper", "heroCN": "死神",
               "name": "Now those are fireworks",
               "id": "reaper-now-those-are-fireworks",
               "quality": "common"
             },
             {
-              "hero": "Reinhardt",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
               "name": "Are you chicken?",
               "id": "reinhardt-are-you-chicken",
               "quality": "common"
             },
             {
-              "hero": "Roadhog",
+              "hero": "Roadhog", "heroCN": "路霸",
               "name": "You chicken?",
               "id": "roadhog-you-chicken",
               "quality": "common"
             },
             {
-              "hero": "Soldier: 76",
+              "hero": "Soldier: 76", "heroCN": "士兵76",
               "name": "The rooster crows",
               "id": "soldier-76-the-rooster-crows",
               "quality": "common"
             },
             {
-              "hero": "Sombra",
+              "hero": "Sombra", "heroCN": "黑影",
               "name": "You're easily impressed",
               "id": "sombra-youre-easily-impressed",
               "quality": "common"
             },
             {
-              "hero": "Symmetra",
+              "hero": "Symmetra", "heroCN": "秩序之光",
               "name": "Good fortune",
               "id": "symmetra-good-fortune",
               "quality": "common"
             },
             {
-              "hero": "Torbjörn",
+              "hero": "Torbjörn", "heroCN": "托比昂",
               "name": "Too hot for you?",
               "id": "torbjorn-too-hot-for-you",
               "quality": "common"
             },
             {
-              "hero": "Tracer",
+              "hero": "Tracer", "heroCN": "猎空",
               "name": "Ready for some fireworks?",
               "id": "tracer-ready-for-some-fireworks",
               "quality": "common"
             },
             {
-              "hero": "Widowmaker",
+              "hero": "Widowmaker", "heroCN": "黑百合",
               "name": "You have my attention",
               "id": "widowmaker-you-have-my-attention",
               "quality": "common"
             },
             {
-              "hero": "Winston",
+              "hero": "Winston", "heroCN": "温斯顿",
               "name": "That was awesome!",
               "id": "winston-that-was-awesome",
               "quality": "common"
             },
             {
-              "hero": "Zarya",
+              "hero": "Zarya", "heroCN": "查莉娅",
               "name": "Get pumped",
               "id": "zarya-get-pumped",
               "quality": "common"
             },
             {
-              "hero": "Zenyatta",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
               "name": "Every rooster crows",
               "id": "zenyatta-every-rooster-crows",
               "quality": "common"
@@ -2999,50 +2999,50 @@ OWI.factory('Data', function() {
           ],
           "poses": [
             {
-              "hero": "Junkrat",
-              "name": "Bad for Your Health",
+              "hero": "Junkrat", "heroCN": "狂鼠",
+              "name": "切勿模仿",
               "id": "junkrat-bad-for-your-health",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/junkrat-bad-for-your-health.jpg"
             },
             {
-              "hero": "Bastion",
-              "name": "Firework",
+              "hero": "Bastion", "heroCN": "堡垒",
+              "name": "烟火",
               "id": "bastion-firework",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/bastion-firework.jpg"
             },
             {
-              "hero": "Ana",
-              "name": "Folded hands",
+              "hero": "Ana", "heroCN": "安娜",
+              "name": "拜年",
               "id": "ana-folded-hands",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/ana-folded-hands.jpg"
             },
             {
-              "hero": "D.Va",
-              "name": "Lucky Pouch",
+              "hero": "D.Va", "heroCN": "D.VA",
+              "name": "福袋",
               "id": "dva-lucky-pouch",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/dva-lucky-pouch.jpg"
             },
             {
-              "hero": "Mei",
-              "name": "Lucky!",
+              "hero": "Mei", "heroCN": "美",
+              "name": "新年如意",
               "id": "mei-lucky",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/mei-lucky.jpg"
             },
             {
-              "hero": "Sombra",
-              "name": "Sparklers",
+              "hero": "Sombra", "heroCN": "黑影",
+              "name": "烟火",
               "id": "sombra-sparklers",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/sombra-sparklers.jpg"
             },
             {
-              "hero": "Roadhog",
-              "name": "What's mine is mine",
+              "hero": "Roadhog", "heroCN": "路霸",
+              "name": "全是我的",
               "id": "roadhog-whats-mine-is-mine",
               "quality": "rare",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/poses/roadhog-whats-mine-is-mine.jpg"
@@ -3050,50 +3050,50 @@ OWI.factory('Data', function() {
           ],
           "skinsLegendary": [
             {
-              "hero": "D.Va",
-              "name": "Palanquin",
+              "hero": "D.Va", "heroCN": "D.VA",
+              "name": "旧正机甲",
               "id": "dva-palanquin",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/dva-palanquin.jpg"
             },
             {
-              "hero": "Mei",
-              "name": "Chang'e",
+              "hero": "Mei", "heroCN": "美",
+              "name": "嫦娥",
               "id": "mei-change",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/mei-change.jpg"
             },
             {
-              "hero": "Mei",
-              "name": "Luna",
+              "hero": "Mei", "heroCN": "美",
+              "name": "月神",
               "id": "mei-luna",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/mei-luna.jpg"
             },
             {
-              "hero": "Reinhardt",
-              "name": "Wujing",
+              "hero": "Reinhardt", "heroCN": "莱因哈特",
+              "name": "悟净",
               "id": "reinhardt-wujing",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/reinhardt-wujing.jpg"
             },
             {
-              "hero": "Roadhog",
-              "name": "Bajie",
+              "hero": "Roadhog", "heroCN": "路霸",
+              "name": "悟能",
               "id": "roadhog-bajie",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/roadhog-bajie.jpg"
             },
             {
-              "hero": "Winston",
-              "name": "Wukong",
+              "hero": "Winston", "heroCN": "温斯顿",
+              "name": "悟空",
               "id": "winston-wukong",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/winston-wukong.jpg"
             },
             {
-              "hero": "Zenyatta",
-              "name": "Sanzang",
+              "hero": "Zenyatta", "heroCN": "禅雅塔",
+              "name": "三藏",
               "id": "zenyatta-sanzang",
               "quality": "legendary",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/skinsLegendary/zenyatta-sanzang.jpg"
@@ -3101,22 +3101,22 @@ OWI.factory('Data', function() {
           ],
           "emotes": [
             {
-              "hero": "D.Va",
-              "name": "Bow",
+              "hero": "D.Va", "heroCN": "D.VA",
+              "name": "行礼",
               "id": "dva-bow",
               "quality": "epic",
               "video": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/emotes/dva-bow.webm"
             },
             {
-              "hero": "Junkrat",
-              "name": "Dud?",
+              "hero": "Junkrat", "heroCN": "狂鼠",
+              "name": "哑弹？",
               "id": "junkrat-dud",
               "quality": "epic",
               "video": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/emotes/junkrat-dud.webm"
             },
             {
-              "hero": "Mei",
-              "name": "So Excited",
+              "hero": "Mei", "heroCN": "美",
+              "name": "激动",
               "id": "mei-so-excited",
               "quality": "epic",
               "video": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/emotes/mei-so-excited.webm"
@@ -3124,139 +3124,139 @@ OWI.factory('Data', function() {
           ],
           "icons": [
             {
-              "name": "Bokimari",
+              "name": "新年小鱿",
               "id": "bokimari",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/bokimari.png"
             },
             {
-              "name": "Chang'e",
+              "name": "嫦娥",
               "id": "mei-change",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/mei-change.png"
             },
             {
-              "name": "Coin",
+              "name": "铜钱",
               "id": "coin",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/coin.png"
             },
             {
-              "name": "Dragon Dance",
+              "name": "舞龙",
               "id": "dragon-dance",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/dragon-dance.png"
             },
             {
-              "name": "Fortune",
+              "name": "旺福临门",
               "id": "fortune",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/fortune.png"
             },
             {
-              "name": "Fuchimari",
+              "name": "春节小鱿",
               "id": "fuchimari",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/fuchimari.png"
             },
             {
-              "name": "Gold",
+              "name": "元宝",
               "id": "gold",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/gold.png"
             },
             {
-              "name": "Hanbok",
+              "name": "韩服",
               "id": "dva-hanbok",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/dva-hanbok.png"
             },
             {
-              "name": "Have Fish",
+              "name": "年年有鱼",
               "id": "have-fish",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/have-fish.png"
             },
             {
-              "name": "Lantern",
+              "name": "灯笼",
               "id": "lantern",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/lantern.png"
             },
             {
-              "name": "Lion Dance",
+              "name": "舞狮",
               "id": "lion-dance",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/lion-dance.png"
             },
             {
-              "name": "Lucky Pouch",
+              "name": "福袋",
               "id": "lucky-pouch",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/lucky-pouch.png"
             },
             {
-              "name": "Lunamari",
+              "name": "春节安娜",
               "id": "lunamari",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/lunamari.png"
             },
             {
-              "name": "Monkey",
+              "name": "悟空",
               "id": "winston-monkey",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/winston-monkey.png"
             },
             {
-              "name": "New Year Cake",
+              "name": "年糕",
               "id": "new-year-cake",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/new-year-cake.png"
             },
             {
-              "name": "Pachilantern",
+              "name": "灯笼小鱿",
               "id": "pachilantern",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/pachilantern.png"
             },
             {
-              "name": "Piggy",
+              "name": "八戒",
               "id": "roadhog-piggy",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/roadhog-piggy.png"
             },
             {
-              "name": "Red Envelope",
+              "name": "红包",
               "id": "red-envelope",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/red-envelope.png"
             },
             {
-              "name": "Sandy",
+              "name": "沙僧",
               "id": "reinhardt-sandy",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/reinhardt-sandy.png"
             },
             {
-              "name": "Sanzang",
+              "name": "三藏",
               "id": "zenyatta-sanzang",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/zenyatta-sanzang.png"
             },
             {
-              "name": "Seollal",
+              "name": "岁首",
               "id": "seollal",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/seollal.png"
             },
             {
-              "name": "Tangerines",
+              "name": "柑橘",
               "id": "tangerines",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/tangerines.png"
             },
             {
-              "name": "Year of the Rooster",
+              "name": "2017年金鸡鸣春",
               "id": "year-of-the-rooster",
               "img": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/icons/year-of-the-rooster.png"
             }
           ],
           "intros": [
             {
-              "hero": "Roadhog",
-              "name": "Feast",
+              "hero": "Roadhog", "heroCN": "路霸",
+              "name": "胡吃海塞",
               "id": "roadhog-feast",
               "quality": "epic",
               "video": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/intros/roadhog-feast.webm"
             },
             {
-              "hero": "Mercy",
-              "name": "Fortune",
+              "hero": "Mercy", "heroCN": "天使",
+              "name": "福到运到",
               "id": "mercy-fortune",
               "quality": "epic",
               "video": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/intros/mercy-fortune.webm"
             },
             {
-              "hero": "Tracer",
-              "name": "Lion Dance",
+              "hero": "Tracer", "heroCN": "猎空",
+              "name": "舞狮迎春",
               "id": "tracer-lion-dance",
               "quality": "epic",
               "video": "./resources/updates/YEAR_OF_THE_ROOSTER_2017/intros/tracer-lion-dance.webm"
